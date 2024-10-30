@@ -1,4 +1,4 @@
-# LIBFT - Your First Custom C Library
+# LIBFT - Biblioteca Personalizada
 
 ![C Badge](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Makefile](https://img.shields.io/badge/Makefile-000000?style=for-the-badge&logo=makefile&logoColor=white)
