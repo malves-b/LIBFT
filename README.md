@@ -1,6 +1,8 @@
 # LIBFT - Your First Custom C Library
 
 ![C Badge](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Makefile](https://img.shields.io/badge/Makefile-000000?style=for-the-badge&logo=makefile&logoColor=white)
+
 
 Libft é um projeto do currículo da 42 que desafia os alunos a recriar funções essenciais da biblioteca padrão da linguagem C (libc) e desenvolver outras funções utilitárias adicionais. O objetivo é aprender sobre manipulação de memória, strings e gerenciamento de listas encadeadas em C, proporcionando uma sólida base para projetos futuros.
 
@@ -12,9 +14,6 @@ Libft é um projeto do currículo da 42 que desafia os alunos a recriar funçõe
   - [Parte 2: Funções Adicionais](#parte-2-funções-adicionais)
   - [Parte 3: Bônus (Lista Encadeada)](#parte-3-bônus-lista-encadeada)
 - [Compilação e Uso](#compilação-e-uso)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Como Contribuir](#como-contribuir)
-- [Licença](#licença)
 
 ---
 
@@ -67,4 +66,32 @@ typedef struct s_list
     void *content;
     struct s_list *next;
 } t_list;
+```
+- **Funções de Manipulação de Listas**:
+ - ft_lstnew: Cria um novo nó com conteúdo inicializado e próximo nó como NULL.
+ - ft_lstadd_front: Adiciona um novo nó no início da lista.
+ - ft_lstsize: Retorna o número de elementos na lista.
+ - ft_lstlast: Retorna o último nó da lista.
+ - ft_lstadd_back: Adiciona um novo nó ao final da lista.
+ - ft_lstdelone: Libera a memória de um único nó, aplicando uma função del para limpar seu conteúdo.
+ - ft_lstclear: Libera a memória de um nó e de todos os seus sucessores, limpando conteúdo com a função del e definindo o ponteiro inicial como NULL.
+ - ft_lstiter: Itera pela lista e aplica a função f ao conteúdo de cada nó.
+ - ft_lstmap: Cria uma nova lista aplicando a função f ao conteúdo de cada nó da lista original. Caso a alocação de um novo nó falhe, a função del é aplicada para garantir a liberação apropriada de memória.
+
+## Compilação e Uso
+
+### Para Compilar a Biblioteca `libft.a`
+
+Execute o comando abaixo para compilar a biblioteca principal:
+
+```bash
+make
+```
+
+Para compilar a parte bônus (funções de lista encadeada), use o comando:
+
+```bash
+make bonus
+```
+
 
