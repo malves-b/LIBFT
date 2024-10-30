@@ -68,15 +68,15 @@ typedef struct s_list
 } t_list;
 ```
 - **Funções de Manipulação de Listas**:
- - ft_lstnew: Cria um novo nó com conteúdo inicializado e próximo nó como NULL.
- - ft_lstadd_front: Adiciona um novo nó no início da lista.
- - ft_lstsize: Retorna o número de elementos na lista.
- - ft_lstlast: Retorna o último nó da lista.
- - ft_lstadd_back: Adiciona um novo nó ao final da lista.
- - ft_lstdelone: Libera a memória de um único nó, aplicando uma função del para limpar seu conteúdo.
- - ft_lstclear: Libera a memória de um nó e de todos os seus sucessores, limpando conteúdo com a função del e definindo o ponteiro inicial como NULL.
- - ft_lstiter: Itera pela lista e aplica a função f ao conteúdo de cada nó.
- - ft_lstmap: Cria uma nova lista aplicando a função f ao conteúdo de cada nó da lista original. Caso a alocação de um novo nó falhe, a função del é aplicada para garantir a liberação apropriada de memória.
+  - `ft_lstnew`: Cria um novo nó com conteúdo inicializado e próximo nó como NULL.
+  - `ft_lstadd_front`: Adiciona um novo nó no início da lista.
+  - `ft_lstsize`: Retorna o número de elementos na lista.
+  - `ft_lstlast`: Retorna o último nó da lista.
+  - `ft_lstadd_back`: Adiciona um novo nó ao final da lista.
+  - `ft_lstdelone`: Libera a memória de um único nó, aplicando uma função del para limpar seu conteúdo.
+  - `ft_lstclear`: Libera a memória de um nó e de todos os seus sucessores, limpando conteúdo com a função del e definindo o ponteiro inicial como NULL.
+  - `ft_lstiter`: Itera pela lista e aplica a função f ao conteúdo de cada nó.
+  - `ft_lstmap`: Cria uma nova lista aplicando a função f ao conteúdo de cada nó da lista original. Caso a alocação de um novo nó falhe, a função del é aplicada para garantir a liberação apropriada de memória.
 
 ## Compilação e Uso
 
