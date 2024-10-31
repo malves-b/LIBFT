@@ -1,5 +1,7 @@
 # LIBFT - Biblioteca Personalizada
 
+![](https://media.giphy.com/media/sD3aa6UiynWfFZJX6E/giphy.gif?cid=ecf05e47p3og0hzc504c9tuboiapwhowyov6k1dkuzuz7ohi&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
 ![C Badge](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Makefile](https://img.shields.io/badge/Makefile-000000?style=for-the-badge&logo=makefile&logoColor=white)
 
